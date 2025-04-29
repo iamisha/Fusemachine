@@ -1,0 +1,45 @@
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node.js (if you work with JavaScript projects)
+node_modules/
+npm-debug.log
+
+# Python (if you work with Python)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks (if used)
+.ipynb_checkpoints
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Personal notes or temporary files
+TODO.md
+NOTES.md
+*.tmp
+
+# Build outputs
+dist/
+build/
