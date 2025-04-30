@@ -1,4 +1,4 @@
-# Week 1 - Day 1 Learning Notes
+# Week 1 - Day 1 - Introduction AI/ML
 
 ## Topics Covered
 
