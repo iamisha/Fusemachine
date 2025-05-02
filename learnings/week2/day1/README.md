@@ -1,13 +1,3 @@
-# Week 2 - Day 1 Learning Notes
+# Week 2 - Day 1 - 12 factor app
 
-## Topics Covered
-
-## What I Learned
-
-## Resources Used
-
-## Code Snippets
-
-## Questions/Challenges
-
-## Next Steps
+* https://www.redhat.com/en/blog/12-factor-app
