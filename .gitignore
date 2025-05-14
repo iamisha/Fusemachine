@@ -26,6 +26,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.env
+.venv
+__pycache__
+*.pyc
 
 # Jupyter Notebooks (if used)
 .ipynb_checkpoints
