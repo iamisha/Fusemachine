@@ -26,8 +26,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-.env
-.venv
 __pycache__
 *.pyc
 
@@ -47,3 +45,38 @@ NOTES.md
 # Build outputs
 dist/
 build/
+
+# Data files (common large or unnecessary data files)
+resources/
+data/
+datasets/
+*.csv
+*.xls
+*.xlsx
+*.json
+*.xml
+
+# Documents
+*.pdf
+*.doc
+*.docx
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Images (if not needed in repo)
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Other temp or system files
+*.bak
+*.orig
+*.old
+
+# Docker files that might be local configs
+docker-compose.override.yml
