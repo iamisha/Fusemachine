@@ -60,18 +60,58 @@ import pandas as pd
 
 ### 2.2 Pandas DataStructures
 * Series: pandas series is a one-dimensional labeled array.
-* DataFrame
+* DataFrame: pandas dataframe is a 2-D data strcuture.
 
-###  2.3 Creating pandas Series using List
-📂 View implementation in `create_pandas_df.py`
+###  2.3 Creating pandas Series 
+📂 View implementation in `create_pandas_series_df.py`
 
 * pandas.Series(List) -> pandas series
-* pandas.Serives(array) -> pandas Series
-* pandas.Serives(dict) -> pandas Series
+* pandas.Series(array) -> pandas Series
+* pandas.Series(dict) -> pandas Series
 
 ### 2.3 Accessing element of Pandas Seris
-📂 View implementation in `create_pandas_df.py`
+📂 View implementation in `create_pandas_series_df.py`
 
 eg:
    s2[:2]
 Accessing first two elements
+
+###  2.4 Creating pandas dataframe 
+📂 View implementation in `create_pandas_df.py`
+
+* pandas.DataFrame(List) -> pandas DataFrame
+* pandas.DataFrame(dict) -> pandas DataFrame
+* series.to_frame() -> pandas DataFrame
+
+### 2.5 Reading CSV, EXCEL and TSV file into dataframe
+csv file:
+```python
+pd.read_csv("csv_file_path")
+```
+excel file:
+```python
+pd.read_excel("excel_file_path")
+```
+tsv file:
+```python
+pd.read_tsv("tsv_file_path", sep='\t')
+```
+
+### 2.6 Pandas some useful methods
+📂 View implementation in `pandas_common_methods.py`
+
+* head()
+* tail()
+* describe()
+* nunique()
+* unique()
+* value_counts()
+
+### 2.7 Label Bases Selection: loc[]
+📂 View implementation in `label_select.py`
+
+### 2.7 Label Bases Selection: iloc[]
+📂 View implementation in `index_select.py`
+
+# 3. Data Manipulation
+📂 View implementation in `data_manipulate.py`
