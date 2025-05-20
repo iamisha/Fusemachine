@@ -115,3 +115,26 @@ pd.read_tsv("tsv_file_path", sep='\t')
 
 # 3. Data Manipulation
 📂 View implementation in `data_manipulate.py`
+
+# 4. map()
+📂 View implementation in `map.py`
+
+# 5. apply()
+📂 View implementation in `apply_imp.py`
+
+# 6. Filtering using boolean index
+📂 View implementation in `bool_index.py`
+
+# 7. Filtering using isin()
+📂 View implementation in `isin_imp.py`
+
+# 8. Groupby in pandas
+📂 View implementation in `groupby_imp.py`
+* Internal operations in groupby
+* Aggregation
+* Simple grouping with one aggregation
+* Multiple aggregation
+* Custom aggregation fun
+* grouping by multiple columns
+* Named Aggregations(Cleaner Syntax)
+* filter after gropby
