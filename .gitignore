@@ -31,6 +31,10 @@ __pycache__
 
 # Jupyter Notebooks (if used)
 .ipynb_checkpoints
+# Jupyter Notebook (temp/backup files)
+*.ipynb~
+*.ipynb.bak
+*.ipynb.old
 
 # Logs and databases
 *.log
